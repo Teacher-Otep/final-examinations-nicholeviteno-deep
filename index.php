@@ -46,21 +46,15 @@
         <input type="text" placeholder="Mobile Number">
         <button>Save</button>
     </div>
-
-    <!-- READ -->
     <div id="read" class="section">
         <h2>Student Records</h2>
         <p>Here you can view student data.</p>
     </div>
-
-    <!-- UPDATE -->
     <div id="update" class="section">
         <h2>Update Student</h2>
         <input type="text" placeholder="Enter Student ID">
         <button>Update</button>
     </div>
-
-    <!-- DELETE -->
     <div id="delete" class="section">
         <h2>Delete Student</h2>
         <input type="text" placeholder="Enter Student ID">
@@ -80,4 +74,4 @@
     </script>
 
 </body>
-            </html>
+</html>
