@@ -8,7 +8,6 @@
             font-family: Arial;
             margin: 20px;
         }
-
         .section {
             display: none;
             margin-top: 20px;
@@ -16,13 +15,11 @@
             border: 1px solid #ccc;
             border-radius: 10px;
         }
-
         button {
             margin: 5px;
             padding: 8px 12px;
             cursor: pointer;
         }
-
         input {
             display: block;
             width: 90%;
@@ -31,9 +28,7 @@
         }
     </style>
 </head>
-
 <body>
-
     <h1>Welcome to Student Management System</h1>
 
     <button onclick="showSection('create')">Create</button>
