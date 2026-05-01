@@ -44,8 +44,9 @@
         <input type="text" placeholder="Middle Name">
         <input type="text" placeholder="Address">
         <input type="text" placeholder="Mobile Number">
-        <button>Save</button>
     </div>
+        <button>Save</button>
+    
     <div id="read" class="section">
         <h2>Student Records</h2>
         <p>Here you can view student data.</p>
