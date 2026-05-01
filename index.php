@@ -3,7 +3,6 @@
 <head>
     <title>Student Management System</title>
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <h1>Welcome to Student Management System</h1>
       
