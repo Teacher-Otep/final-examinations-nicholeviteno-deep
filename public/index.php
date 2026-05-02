@@ -9,8 +9,6 @@
 </head>
 
 <body>
-
-
 <nav class="navbar">
     <img src="images/northhub.svg" id="logo" onclick="showSection('home')">
 
@@ -51,7 +49,6 @@
     <h2>View Data</h2>
     <p>No data available</p>
 </section>
-
 
 <section id="update" class="content">
     <h2>Update Student</h2>
