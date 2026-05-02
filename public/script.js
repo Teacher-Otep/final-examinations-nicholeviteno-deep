@@ -1,38 +1,33 @@
-//fucntion to show selected section
-function showSection(sectionID){
-    //initially, select all sections
-    // use querySelectorAll for all sections with class content and homecontent
+function showSection(id) {
     const sections = document.querySelectorAll('.content');
-    const homesection = document.querySelectorAll('.homecontent');
 
-    //hide the resulting content sections using foreach
-    sections.forEach(section => {
-        section.style.display='none';
+    sections.forEach(sec => {
+        sec.style.display = "none";
     });
 
-
-    //select the section that would
-    //be displayed when clicked
-    const activeSection = document.getElementById(sectionID);
-    if(activeSection){
-        activeSection.style.display='block';
+    const target = document.getElementById(id);
+    if (target) {
+        target.style.display = "block";
     }
 }
 
-//for the insertion success
-window.onload = function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('status') === 'success') {
-        const toast = document.getElementById('success-toast');
-        toast.classList.remove('toast-hidden');
-        
-        // Hide it automatically after 3 seconds
-        setTimeout(() => {
-            toast.style.opacity = '0';
-            setTimeout(() => toast.classList.add('toast-hidden'), 500);
-        }, 3000);
+document.getElementById("logo").addEventListener("click", function () {
+    
+    
+    document.getElementById("home").style.display = "Welcome to student Managment";
 
-        // Clean the URL
-        window.history.replaceState({}, document.title, window.location.pathname);
-    }
+    
+    document.getElementById("navButtons").style.display = "block";
+});
+
+
+function showSection(sectionId) {
+
+    let sections = document.querySelectorAll(".content");
+
+    sections.forEach(sec => {
+        sec.style.display = "none";
+    });
+
+    document.getElementById(sectionId).style.display = "block";
 }
